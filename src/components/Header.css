@@ -1,0 +1,28 @@
+.header {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.header__logo {
+  font-size: 1.8rem;
+}
+
+.header__title {
+  font-size: 1.6rem;
+  color: var(--color-primary);
+}
+
+.header__tagline {
+  color: var(--color-muted);
+  margin-top: 0.25rem;
+}

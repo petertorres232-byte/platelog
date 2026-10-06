@@ -1,0 +1,22 @@
+.meal-section {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+}
+
+.meal-section__title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.meal-section__list {
+  list-style: none;
+}
+
+.meal-section__empty {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}

@@ -1,16 +1,45 @@
-# React + Vite
+# PlateLog — Daily Nutrition & Meal Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PlateLog is a modern, responsive React web application designed to help users track daily food intake, monitor calorie and macronutrient consumption, search food items using the official USDA database, and review historical logs over time.
 
-Currently, two official plugins are available:
+## Features
+- **Daily Food Logging:** Add custom food entries with calorie and macro breakdowns (protein, carbs, fat).
+- **USDA Database Integration:** Real-time search powered by the USDA FoodData Central API.
+- **Interactive Filtering:** Filter meals by categories (Breakfast, Lunch, Dinner, Snack) or navigate across different dates.
+- **Daily Macro Summary:** Auto-calculates total calories and macronutrients for selected days.
+- **History View:** Complete chronological view of past food logs.
+- **Local Persistence:** Retains entries locally using browser \localStorage\.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- **React 19**
+- **Vite**
+- **React Router**
+- **USDA FoodData Central API**
+- **CSS3 (Custom Variables, Flexbox & Grid)**
 
-## React Compiler
+## Getting Started Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository:**
+   \\\ash
+   git clone https://github.com/petertorres232-byte/platelog.git
+   cd platelog
+   \\\
 
-## Expanding the ESLint configuration
+2. **Install dependencies:**
+   \\\ash
+   npm install
+   \\\
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Set up environment variables:**
+   Create a \.env\ file in the project root and add your USDA API key:
+   \\\env
+   VITE_USDA_API_KEY=your_usda_api_key_here
+   \\\
+
+4. **Run the development server:**
+   \\\ash
+   npm run dev
+   \\\
+
+## Author
+Built by **Peter Torres**.
